@@ -1,0 +1,17 @@
+10 FILLER         PIC X(3) VALUE SPACES.
+               10 TREAT-NAME-OUT PIC X(15).
+               10 FILLER         PIC X(3) VALUE SPACES.
+
+               10 TREAT-SIZE-OUT    PIC X(10).
+
+               10 FILLER      PIC X(3) VALUE SPACES.
+               10 NUM-IN-STOCK-OUT  PIC ZZZ9.
+               10 SELLING-PRICE-IN PIC 99V99.
+               
+               10 FILLER      PIC X(5) VALUE SPACES.
+               10 DOLLSIGN         PIC X    VALUE '$'.
+               10 PURCHASE-PRICE-OUT     PIC ZZ9.99  .
+          
+               10 FILLER           PIC X(5) VALUE SPACES.
+               10 DOLLSIGN         PIC X     VALUE '$'  .
+               10 REVENUE-OUT    PIC ZZZ,ZZZ.99         .
